@@ -11,6 +11,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/alpinejs": "^0.1.2",
+    "@types/alpinejs": "^3.0.0",
+    "alpinejs": "^3.0.0",
     "astro": "^1.6.0"
   }
 }

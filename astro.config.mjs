@@ -1,4 +1,9 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-export default defineConfig({});
+import alpinejs from "@astrojs/alpinejs";
+
+// https://astro.build/config
+export default defineConfig({
+  integrations: [alpinejs()]
+});
